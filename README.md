@@ -1,4 +1,4 @@
-# Go365 v2.0
+  Go365 v2.0
 
 - Fixed AWS gateway issues (thanks h0useh3ad!)
 - No longer dies when proxy server connections fail
@@ -201,4 +201,4 @@ The tool will randomly iterate through the provided proxy servers and wait for t
 
 Additionally, an endpoint url may be specified so this tool can interface with Amazon API Gateway. Setup a gateway to point to the `https://login.microsoftonline.com/rst2.srf` endpoint, then set the -url parameter to the provided `Invoke URL`. Your IP should be rotated with each request.
 
-`-url https://justanexample.execute-api.us-east-2.amazonaws.com/login`
+`-url https://justanexample.execute-api.us-east-2.amazonaws.com/login` 
